@@ -1,0 +1,26 @@
+name: hiv_drm_enricher
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core Python version
+  - python=3.10
+
+  # Key bioinformatics libraries
+  - pysam
+  - mappy
+  - samtools # Good to keep this explicit
+
+  # For building the database
+  - requests # For downloading files
+  - pandas   # For parsing data tables
+  - lxml
+  - html5lib # Robust HTML parsing
+  - beautifulsoup4 
+  - selenium           # For browser automation
+  - webdriver-manager 
+
+  # Optional but good for development
+  - ipython
+  - black

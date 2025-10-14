@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda/Venv environments
+/env/
+/venv/
+/.venv/
+/conda-env/
+.conda
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Data files - IMPORTANT for large BAMs
+/data/
+
+# Build artifacts
+/dist/
+/build/
+*.egg-info/
+
+# Installer scripts
+*.sh
