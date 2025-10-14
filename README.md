@@ -88,7 +88,7 @@ This project is designed to be run within a Linux environment. For Windows users
 1.  **Clone the Repository:**
 
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/ujwal-jibhkate/hiv_drm_enricher.git
     cd hiv_drm_enricher
     ```
 
