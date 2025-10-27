@@ -1,6 +1,6 @@
 name: hiv_drm_enricher
 channels:
-  - conda-forge
+  - conda-forge # Add if not present, needs higher priority for dorado
   - bioconda
   - defaults
 dependencies:
@@ -10,16 +10,19 @@ dependencies:
   # Key bioinformatics libraries
   - pysam
   - mappy
-  - samtools # Good to keep this explicit
+  - samtools
 
   # For building the database
-  - requests # For downloading files
-  - pandas   # For parsing data tables
+  - requests
+  - pandas
   - lxml
-  - html5lib # Robust HTML parsing
-  - beautifulsoup4 
-  - selenium           # For browser automation
-  - webdriver-manager 
+  - html5lib
+  - selenium
+  - webdriver-manager
+
+  # --- NEW TOOLS ---
+  - dorado   # Nanopore basecaller
+  - minimap2 # Aligner
 
   # Optional but good for development
   - ipython
