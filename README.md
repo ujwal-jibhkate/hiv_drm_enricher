@@ -71,19 +71,19 @@ This is the "engine" of the project (`run_final_pipeline.py`). It simulates a da
 
 ```mermaid
 graph TD
-    A[Start: Read BAM File Stream] --> B{Is Read Mapped & High Quality?};
-    B -- No --> C[Classify: Discard];
-    B -- Yes --> D(Find Nucleotide Mismatches);
-    D -- Rationale --> D_Note(Uses pysam.get_aligned_pairs which requires the 'MD' tag. This tag was added in our data-prep step using 'samtools calmd'.);
-    D --> E{Any Mismatches Found?};
-    E -- No --> F[Classify: DRM-Negative];
-    E -- Yes --> G[For Each Mismatch...];
-    G --> H(Translate: Nucleotide to Amino Acid Change);
-    H -- Rationale --> H_Note(Uses the 'GENE_COORDINATES' (e.g., RT starts at 2253 on HXB2) to calculate the correct, gene-relative AA position (e.g., M184V). This was a critical bug-fix.);
-    H --> I{Is this AA Change in our V4 Database?};
-    I -- Yes --> J[Classify: DRM-Positive];
-    I -- No --> F;
-```
+    A["Start: Read BAM File Stream"] --> B{"Is Read Mapped & High Quality?"}
+    B -- No --> C["Classify: Discard"]
+    B -- Yes --> D["Find Nucleotide Mismatches"]
+    D -- Rationale --> D_Note["Uses pysam.get_aligned_pairs which requires the 'MD' tag.<br/>This tag was added in our data-prep step using 'samtools calmd'."]
+    D --> E{"Any Mismatches Found?"}
+    E -- No --> F["Classify: DRM-Negative"]
+    E -- Yes --> G["For Each Mismatch..."]
+    G --> H["Translate: Nucleotide to Amino Acid Change"]
+    H -- Rationale --> H_Note["Uses the 'GENE_COORDINATES' (e.g., RT starts at 2253 on HXB2)<br/>to calculate the correct, gene-relative AA position (e.g., M184V). This was a critical bug-fix."]
+    H --> I{"Is this AA Change in our V4 Database?"}
+    I -- Yes --> J["Classify: DRM-Positive"]
+    I -- No --> F
+
 
 ## 3\. How to Run This Project (Replicating Our Success)
 
