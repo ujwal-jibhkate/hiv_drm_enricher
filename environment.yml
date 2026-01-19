@@ -27,3 +27,9 @@ dependencies:
   # Optional but good for development
   - ipython
   - black
+
+  # --- NEW LIBRARIES FOR REPORTING ---
+  - matplotlib  # For generating plots
+  - scipy       # For statistical analysis (z-test)
+  - fpdf2       # For creating the final PDF report
+  - statsmodels
