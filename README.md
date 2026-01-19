@@ -1,5 +1,7 @@
 <p align="center">
+
 # HIV DRM Enricher 🧬
+
 </p>
 
 <p align="center">
@@ -7,12 +9,12 @@
 </p>
 
 <p align="center">
-<img src="[https://img.shields.io/badge/Status-Research_Beta-yellow?style=flat-square](https://www.google.com/search?q=https://img.shields.io/badge/Status-Research_Beta-yellow%3Fstyle%3Dflat-square)" alt="Status">
-<img src="[https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python](https://www.google.com/search?q=https://img.shields.io/badge/Python-3.10%2B-blue%3Fstyle%3Dflat-square%26logo%3Dpython)" alt="Python">
-<img src="[https://img.shields.io/badge/Platform-Linux_%7C_WSL-orange?style=flat-square&logo=linux](https://www.google.com/search?q=https://img.shields.io/badge/Platform-Linux_%257C_WSL-orange%3Fstyle%3Dflat-square%26logo%3Dlinux)" alt="Platform">
-<img src="[https://img.shields.io/badge/Bioinformatics-Minimap2_%7C_Samtools-green?style=flat-square](https://www.google.com/search?q=https://img.shields.io/badge/Bioinformatics-Minimap2_%257C_Samtools-green%3Fstyle%3Dflat-square)" alt="Bioinformatics">
+<img src="[https://img.shields.io/badge/Status-Research_Beta-yellow?style=flat-square](https://img.shields.io/badge/Status-Research_Beta-yellow%3Fstyle%3Dflat-square)" alt="Status">
+<img src="[https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python](https://img.shields.io/badge/Python-3.10%2B-blue%3Fstyle%3Dflat-square%26logo%3Dpython)" alt="Python">
+<img src="[https://img.shields.io/badge/Platform-Linux_%7C_WSL-orange?style=flat-square&logo=linux](https://img.shields.io/badge/Platform-Linux_%257C_WSL-orange%3Fstyle%3Dflat-square%26logo%3Dlinux)" alt="Platform">
+<img src="[https://img.shields.io/badge/Bioinformatics-Minimap2_%7C_Samtools-green?style=flat-square](https://img.shields.io/badge/Bioinformatics-Minimap2_%257C_Samtools-green%3Fstyle%3Dflat-square)" alt="Bioinformatics">
 <a href="/LICENSE">
-<img src="[https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square](https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-lightgrey%3Fstyle%3Dflat-square)" alt="License">
+<img src="[https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square](https://img.shields.io/badge/License-MIT-lightgrey%3Fstyle%3Dflat-square)" alt="License">
 </a>
 </p>
 
