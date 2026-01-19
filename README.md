@@ -4,19 +4,21 @@
 
 </p>
 
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20WSL2-lightgrey.svg)
+![Sequencing](https://img.shields.io/badge/Sequencing-Oxford%20Nanopore%20%7C%20TGS-purple.svg)
+![Domain](https://img.shields.io/badge/Domain-Bioinformatics%20%7C%20HIV-red.svg)
+![Statistics](https://img.shields.io/badge/Stats-FDR%20%7C%20Power%20Analysis-orange.svg)
+![Status](https://img.shields.io/badge/Status-Research%20Pipeline-informational.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+
 <p align="center">
 <strong>A high-precision bioinformatics pipeline for detecting HIV drug resistance mutations from Nanopore sequencing data, featuring a hybrid alignment engine and rigorous clinical statistical validation.</strong>
 </p>
 
-<p align="center">
-<img src="[https://img.shields.io/badge/Status-Research_Beta-yellow?style=flat-square](https://img.shields.io/badge/Status-Research_Beta-yellow%3Fstyle%3Dflat-square)" alt="Status">
-<img src="[https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python](https://img.shields.io/badge/Python-3.10%2B-blue%3Fstyle%3Dflat-square%26logo%3Dpython)" alt="Python">
-<img src="[https://img.shields.io/badge/Platform-Linux_%7C_WSL-orange?style=flat-square&logo=linux](https://img.shields.io/badge/Platform-Linux_%257C_WSL-orange%3Fstyle%3Dflat-square%26logo%3Dlinux)" alt="Platform">
-<img src="[https://img.shields.io/badge/Bioinformatics-Minimap2_%7C_Samtools-green?style=flat-square](https://img.shields.io/badge/Bioinformatics-Minimap2_%257C_Samtools-green%3Fstyle%3Dflat-square)" alt="Bioinformatics">
-<a href="/LICENSE">
-<img src="[https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square](https://img.shields.io/badge/License-MIT-lightgrey%3Fstyle%3Dflat-square)" alt="License">
-</a>
-</p>
+
 
 ---
 
